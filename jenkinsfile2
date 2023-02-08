@@ -14,7 +14,7 @@ pipeline {
     "setCloseCode": false,
          "attributes": {
             "requested_by": {
-                "name": "test user"
+                "name": "DevOps System"
              },
             "category": "DevOps",
             "priority": "2",
