@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello World'
-		//sleep 2
+		sleep 2
                  snDevOpsChange(changeRequestDetails: """
   {
     "setCloseCode": false,
