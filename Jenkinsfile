@@ -12,7 +12,7 @@ pipeline {
             
             steps {
                 echo 'this is test stage'
-                snDevOpsChange(changeRequestDetails: """{"setCloseCode": false,"pollingInterval":"10","changeCreationTimeOut":"30","abortOnChangeCreationFailure": true}""")
+                snDevOpsChange(changeRequestDetails: """{"setCloseCode": false,"pollingInterval":"10","changeCreationTimeOut":"30","abortOnChangeCreationFailure": false}""")
             }
         }
         stage("deploy") {
