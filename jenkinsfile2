@@ -15,7 +15,7 @@ pipeline {
     "setCloseCode": false,
    "pollingInterval":"10",
     //"changeCreationTimeOut": "30",
-   "abortOnChangeCreationFailure": false,
+   "abortOnChangeCreationFailure": true,
          "attributes": {
             "requested_by": {
                 "name": "DevOps System"
