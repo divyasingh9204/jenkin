@@ -63,7 +63,7 @@ pipeline {
     "pollingInterval":"10",
     "changeCreationTimeOut":"30",
     "abortOnChangeCreationFailure": true
-    }
+    }"""
                   )
                   echo ">> Deploy in prod"
               }
